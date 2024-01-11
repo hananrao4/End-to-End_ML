@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Test Prediction</title>
+</head>
+<body>
+    <h1>Select Test Type</h1>
+    
+    <form action="/predict" method="post">
+        <label for="test_type">Choose a Test:</label>
+        <select name="test_type" id="test_type">
+            <option value="cholesterol">Cholesterol Test</option>
+            <option value="lft">Liver Function Test</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Predict">
+    </form>
+</body>
+</html>
